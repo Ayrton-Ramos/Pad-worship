@@ -3,6 +3,7 @@
 //   node server.js               -> serves on port 8000
 //   node server.js --port=5000   -> serves on port 5000
 //   PORT=5000 node server.js     -> cross-platform via env var
+// Serves files from the current working directory
 
 const http = require('http');
 const fs = require('fs');
