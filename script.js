@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             PAD_LOCAL_FILES[i] = href.startsWith('http') || href.startsWith('pads/') ? href : `pads/${href}`;
           }
           const displayLinks = links.map(l => decodeURIComponent(l));
-          console.log('Arquivos encontrados em pads/:', displayLinks.filter(Boolean));
+          console.log('Arquivos encontrado pads/:', displayLinks.filter(Boolean));
         }
       }
     } catch (err) {
